@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">DAMITest</string>
+    <string name="title_activity_login">Přihlášení</string>
+    <string name="title_activity_registration">Registrace</string>
+    <string name="title_activity_user_details">Detail účtu</string>
+    <string name="title_activity_contact_details">Detail kontaktu</string>
+    <string name="title_activity_contacts">Kontakty</string>
+    <string name="title_activity_add_contact">Přidání kontaktu</string>
+    <string name="title_activity_map">Mapa</string>
+    <string name="title_activity_point_detail">Detail bodu</string>
+    <string name="title_activity_filter">Filtr</string>
+
+    <string name="email">Email</string>
+    <string name="password">Heslo</string>
+    <string name="password_again">Heslo znovu</string>
+    <string name="new_password">Nové heslo</string>
+
+    <string name="registration">Registrace</string>
+    <string name="map">Mapa</string>
+    <string name="account">Účet</string>
+    <string name="login">Přihlásit se</string>
+    <string name="facebook">Facebook</string>
+
+    <string name="wrong_email">Špatný email</string>
+    <string name="short_password">Krátke heslo</string>
+    <string name="not_same_password">Hesla se neshodují</string>
+
+    <string name="contacts">Kontakty</string>
+    <string name="logout">Odhlásit</string>
+
+    <string name="name">Jméno</string>
+    <string name="lastname">Příjmení</string>
+    <string name="rights">Práva</string>
+    <string name="phone">Telefonní číslo</string>
+    <string name="description">Popis</string>
+    <string name="none">Nezadáno</string>
+
+    <string name="save">Uložit</string>
+    <string name="discard">Zrušit</string>
+
+    <string name="search">Vyhledávání</string>
+
+    <string name="account_details">Detail účtu</string>
+    <string name="exit">Ukončit</string>
+
+    <string name="add_contact">Přidat kontakt</string>
+    <string name="apply">Použit</string>
+
+    <string name="show_only_favorite">Zobrazit pouze oblíbené položky na mapě</string>
+    <string name="filter">Filtr</string>
+
+    <string name="facebook_app_id">1136991573084866</string>
+
+</resources>

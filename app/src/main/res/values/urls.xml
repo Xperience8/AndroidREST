@@ -1,0 +1,10 @@
+<resources>
+    <item name="login_url" type="string">http://androidtest.dev.damidev.com/api/login</item>
+    <item name="register_url" type="string">http://androidtest.dev.damidev.com/api/register</item>
+    <item name="update_account_url" type="string">http://androidtest.dev.damidev.com/api/updateAccount</item>
+    <item name="get_contacts_url" type="string">http://androidtest.dev.damidev.com/api/getContacts</item>
+    <item name="add_contact_url" type="string">http://androidtest.dev.damidev.com/api/addContact</item>
+    <item name="delete_contact_url" type="string">http://androidtest.dev.damidev.com/api/deleteContact</item>
+    <item name="update_contact_url" type="string">http://androidtest.dev.damidev.com/api/updateContact</item>
+    <item name="get_points_on_map_url" type="string">http://androidtest.dev.damidev.com/api/getPointsOnMap</item>
+</resources>

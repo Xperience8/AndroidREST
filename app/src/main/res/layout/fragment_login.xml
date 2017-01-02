@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.LoginFragment"
+    android:background="@android:color/darker_gray">
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="75dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/dami_logo"
+            android:background="@drawable/dami_green_logo"
+            android:scaleType="center"
+            android:cropToPadding="false"
+            android:adjustViewBounds="false"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/email"
+                android:background="@android:color/background_light"
+                android:textSize="24sp"
+                android:layout_marginBottom="2dp"
+                android:selectAllOnFocus="true"
+                android:hint="@string/email" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/password"
+                android:background="@android:color/background_light"
+                android:textSize="24sp"
+                android:layout_marginTop="2dp"
+                android:selectAllOnFocus="true"
+                android:hint="@string/password" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/login"
+                android:text="@string/login"
+                android:onClick="onClickLogin" />
+
+            <com.facebook.login.widget.LoginButton
+                android:text="@string/facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/facebook" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
