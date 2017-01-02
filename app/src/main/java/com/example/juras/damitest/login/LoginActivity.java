@@ -16,6 +16,7 @@ import com.example.juras.damitest.utils.Utils;
 
 /**
  * LoginActivity contains login, registration and map fragment which are inside tabs
+ * Change
  * */
 public class LoginActivity extends FragmentActivity implements TabLayout.OnTabSelectedListener
 {
